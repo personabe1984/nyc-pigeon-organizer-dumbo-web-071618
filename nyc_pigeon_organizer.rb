@@ -1,7 +1,7 @@
 def nyc_pigeon_organizer(data)
    organized = {}
 
-   data.each do |trait, options|
+   data.each do |attributes, options|
      options.each do |option, pigeons|
        pigeons.each do |pigeon|
          organized[pigeon] ||= {}
