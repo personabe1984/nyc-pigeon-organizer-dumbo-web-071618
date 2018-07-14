@@ -10,5 +10,5 @@ def nyc_pigeon_organizer(data)
        end
      end
    end
-   organized
+   return organized
 end
