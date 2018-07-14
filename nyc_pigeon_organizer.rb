@@ -5,8 +5,8 @@ def nyc_pigeon_organizer(data)
      options.each do |option, pigeons|
        pigeons.each do |pigeon|
          organized[pigeon] ||= {}
-         organized[pigeon][trait] ||= []
-         organized[pigeon][trait] << option.to_s
+         organized[pigeon][attributes] ||= []
+         organized[pigeon][attributes] << option.to_s
        end
      end
    end
